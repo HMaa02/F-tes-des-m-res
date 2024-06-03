@@ -1,0 +1,39 @@
+@import url(components/section.css);
+@import url(components/button.css);
+@import url(components/picture.css);
+@import url(components/navbar.css);
+
+body {
+	margin: 0;
+	font-family: arial;
+	background-color: #8FA6AC;
+  padding-bottom: 50px;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #FDB0AA;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+p {
+	font-family: Arial, sans-serif;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.line-transparent {
+  background: #FDB0AA;
+  width: 100%;
+  display: flex;
+	gap: 20px;
+}
+
